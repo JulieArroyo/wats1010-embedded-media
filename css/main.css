@@ -29,7 +29,7 @@ h1{
 	font-family:Matterhorn, Helvetica, sans-serif;
 	padding-bottom:0;
 	padding-top:400px;
-	margin-bottom:0;
+	margin:0;
 	position:relative;
 }
 .subtitle{
@@ -75,29 +75,25 @@ video{
 	left:50%;
 	top:10%;
 	width:850px;
-	position:inherit;
-	padding-left:100px;
-	padding-right:20px;
-	padding-bottom:25px;
+    float:right;
+	border-bottom: 1px solid black;
+	box-shadow:5px 5px 5px #7c7c7c;
 }
- h3{
-	padding-top:25px;
-	padding-right:100px;
-	text-align:center;
-	 padding-left:225px;
-	 
+
+audio {
+	padding-left:20px;
 }
+
 
 #about{
 	text-align:center;
 }
 #listen{
-	text-align:center;
+	display:inline;
+	
 }
 #watch{
-	text-align:center;
 	padding-right:150px;
-	
 }
 #social {
 	border-radius:5px 5px 5px;
@@ -105,7 +101,7 @@ video{
 	position:fixed;
 	top:50px;
 	right:0;
-	width:15px;
+	width:10px;
 	transition:2s ;
 }
 #social:hover{
@@ -116,9 +112,20 @@ video{
 	padding:0;
 	list-style-type:none;
 }
+h3 {
+	text-align:center;
+}
 
-#listen a .download-button{
-	padding-top:-50px;
+#listen a .download-button {
+	display:inline-block;
+	
+}
+h2{
+	text-align:center;
+	padding-top:15px;
+}
+#watch h2{
+	padding-left:250px;
 }
 .download-button{
 	display:inline-block;
@@ -146,14 +153,8 @@ video{
 }
 p{
 	text-align:center;
-	display:block;
+	
 }
-
-h2{
-	display:inline;
-	text-align:center;
-}
-
 .weybec-people{
 	border-top:1px solid black;
 }
